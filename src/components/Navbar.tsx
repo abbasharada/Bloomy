@@ -49,7 +49,7 @@ export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
             className="flex items-center gap-2.5 transition-transform hover:scale-[1.03]"
           >
             <span className="flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-lg ring-1 ring-brand-100 animate-logo-glow">
-              <img src="/src/assets/bloomy-logo.svg" alt="Bloomy Drinks" className="h-8 w-8 rounded-full object-cover" />
+              <img src="/src/assets/logo.jpg" alt="Bloomy Drinks" className="h-8 w-8 rounded-full object-cover" />
             </span>
             <span className="flex flex-col leading-none">
               <span className={`font-display text-lg font-extrabold tracking-tight ${solid ? 'text-slate' : 'text-white'}`}>

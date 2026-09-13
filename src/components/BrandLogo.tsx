@@ -1,4 +1,4 @@
-import logoUrl from '@/assets/bloomy-logo.svg';
+import logoUrl from '@/assets/logo.jpg';
 
 export default function BrandLogo({ compact = false }: { compact?: boolean }) {
   return (
