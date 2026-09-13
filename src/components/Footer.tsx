@@ -18,7 +18,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2.5">
               <span className="flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-lg">
-                <img src="/src/assets/bloomy-logo.svg" alt="Bloomy Drinks" className="h-8 w-8 rounded-full object-cover" />
+                <img src="/src/assets/logo.jpg" alt="Bloomy Drinks" className="h-8 w-8 rounded-full object-cover" />
               </span>
               <div>
                 <p className="font-display text-lg font-bold text-white">Bloomy Drinks</p>
