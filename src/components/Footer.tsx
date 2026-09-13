@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Phone, MapPin, Clock, Instagram, Facebook } from 'lucide-react';
 import { WHATSAPP_NUMBER, PHONE_DISPLAY, buildWhatsAppUrl, DEFAULT_WA_MESSAGE } from '@/data/bloomy';
 import { NAV_ITEMS, type Page } from '@/hooks/useRouter';
 import { DRINKS } from '@/data/bloomy';
@@ -18,7 +18,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2.5">
               <span className="flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-lg">
-                <img src="/src/assets/logo.jpg" alt="Bloomy Drinks" className="h-8 w-8 rounded-full object-cover" />
+                <img src="logo.jpg" alt="Bloomy Drinks" className="h-8 w-8 rounded-full object-cover" />
               </span>
               <div>
                 <p className="font-display text-lg font-bold text-white">Bloomy Drinks</p>
@@ -33,7 +33,6 @@ export default function Footer({ onNavigate }: FooterProps) {
               {[
                 { Icon: Instagram, href: 'https://instagram.com/bloomydrinks.ng' },
                 { Icon: Facebook, href: 'https://www.facebook.com/umaymah.tajuddeen' },
-              //  { Icon: Twitter, href: '#' },
               ].map(({ Icon, href }, i) => (
                 <a
                   key={i}

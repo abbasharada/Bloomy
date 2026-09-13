@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { buildWhatsAppUrl, DEFAULT_WA_MESSAGE, PHONE_DISPLAY } from '@/data/bloomy';
 import { NAV_ITEMS, type Page } from '@/hooks/useRouter';
-import BrandLogo from '@/components/BrandLogo';
 
 interface NavbarProps {
   currentPage: Page;
@@ -49,7 +48,7 @@ export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
             className="flex items-center gap-2.5 transition-transform hover:scale-[1.03]"
           >
             <span className="flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-lg ring-1 ring-brand-100 animate-logo-glow">
-              <img src="/src/assets/logo.jpg" alt="Bloomy Drinks" className="h-8 w-8 rounded-full object-cover" />
+              <img src="logo.jpg" alt="Bloomy Drinks" className="h-8 w-8 rounded-full object-cover" />
             </span>
             <span className="flex flex-col leading-none">
               <span className={`font-display text-lg font-extrabold tracking-tight ${solid ? 'text-slate' : 'text-white'}`}>
@@ -124,7 +123,7 @@ export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
             <div className="flex items-center justify-between border-b border-brand-100 px-5 py-4">
               <span className="flex items-center gap-2">
                 <span className="flex h-9 w-9 items-center justify-center rounded-full bg-surface ring-1 ring-brand-100">
-                  <img src="/src/assets/bloomy-logo.svg" alt="Bloomy Drinks" className="h-7 w-7 rounded-full object-cover" />
+                  <img src="logo.jpg" alt="Bloomy Drinks" className="h-7 w-7 rounded-full object-cover" />
                 </span>
                 <span className="font-display text-lg font-bold text-slate">Bloomy Drinks</span>
               </span>
